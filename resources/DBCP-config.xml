@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+    <!--这个是连接池的配置文件，这个后来注释了，用下边的配置文件，上边也改了，加了context-->
+<!--    <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource">
+        <property name="url" value="jdbc:mysql://localhost:3306/station_data"/>
+        <property name="username" value="root"/>
+        <property name="password" value="root"/>
+    </bean>-->
+    <context:property-placeholder location="classpath:db.properties"/>
+    <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource">
+        <property name="driverClassName" value="${mysql.driverClass}"/>
+        <property name="url" value="${mysql.jdbcURL}"/>
+        <property name="username" value="${mysql.user}"/>
+        <property name="password" value="${mysql.password}"/>
+    </bean>
+
+
+
+    <!--ProductDao配置Dao，dataSource，就是上边的那个，创建这个对象的时候能直接给这个对象赋值，我写的DAO和教程相比少写了一点。教程写的是，在dao里又链接jdbc那些-->
+    <!--重要，如果这个Dao交给spring管理，就不能在测试方法里new这个对象，-->
+    <!--测试的时候需要写个@Autowired,然后下一行，ProductDao productDao,就作为new对象了，详见测试方法-->
+    <bean id="ticketDao" class="com.day04.ssmspring.dao.impl.TicketDao">
+        <property name="a" ref="dataSource"/>
+        <!--//想要直接在这个给一个参数，需要有get,set方法-->
+    </bean>
+</beans>

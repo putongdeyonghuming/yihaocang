@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--这是spring的配置文件-->
+    <!--把model里的Ticket对象交给spring来管理-->
+    <!--然后取测试方法里测试-->
+    <bean id="t" class="com.day04.ssmspring.model.Ticket" init-method="Init" destroy-method="Init1">
+   <!--上边这行init-method="Init" destroy-method="Init1"分别是对象初始化方法和对象摧毁时候执行的方法-->
+        <!--下边的这行是多例的意思，创建多例的bean，不写默认是单例的-->
+    <!--<bean id="t" class="com.day04.ssmspring.model.Ticket" scope="prototype">-->
+        <!-- 这里可以直接把值在new的时候给这个new出来的对象初始化,如下 -->
+        <property name="id" value="10"/><!--//这个是常用的-->
+        <!--上边就是给新new的对象里的id赋值10，要有get,set方法才能用-->
+        <!--下边的是构造方法里，添加的参数,需要先有构造方法-->
+        <constructor-arg name="start_station" value="北京"/>
+        <constructor-arg name="stop_station" value="上海"/>
+
+    <!--下边的这里是引用一个对象，不是string或者int的，是siji这个大的对象,用ref和下边的bean链接上就好-->
+        <property name="siji" ref="siji"/><!--//这个是常用的-->
+    </bean>
+
+    <!--下边是把mybits-config配置文件引入到spring的方法，好像不对-->
+   <!-- <import resource="myBatis-config.xml"/>-->
+    <import resource="DBCP-config.xml"/>
+
+    <bean id="siji" class="com.day04.ssmspring.model.siji">
+    <property name="siji" value="1号"/><!--//这个是常用的-->
+    <property name="nianling" value="25"/><!--//这个是常用的-->
+    <property name="xingming" value="张三"/><!--//这个是常用的-->
+    </bean>
+</beans>

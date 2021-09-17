@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--这里是写SQL语句的地方,第二个参数是请求类型，第三个类型是返回类型-->
+<mapper namespace="org.mybatis.example.BlogMapper">
+    <select id="yy" parameterType="int" resultType="com.day03.ssmkuangjia.model.Ticket">
+        select id,start_station,stop_station,start_time,ticket_price from ticket where id = #{id}
+    </select>
+    <insert id="tt" parameterType="com.day03.ssmkuangjia.model.Ticket" >
+        INSERT INTO ticket (start_station,stop_station) VALUES (#{start_station},#{stop_station})
+    </insert>
+    <delete id="shanchu" parameterType="int">
+        DELETE FROM ticket where id=#{id}
+    </delete>
+    <update id="gengxin" parameterType="com.day03.ssmkuangjia.model.Ticket">
+        update ticket set start_station= #{start_station},stop_station= #{stop_station} where id= #{id}
+    </update>
+    <!--这里的返回数据是一行的数据-->
+    <select id="quancha" resultType="com.day03.ssmkuangjia.model.Ticket">
+        select id,start_station,stop_station,start_time,ticket_price from ticket
+    </select>
+</mapper>

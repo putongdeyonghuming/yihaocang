@@ -1,0 +1,375 @@
+25-Aug-2021 19:19:32.261 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/10.0.10
+25-Aug-2021 19:19:32.271 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jul 30 2021 09:51:27 UTC
+25-Aug-2021 19:19:32.272 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      10.0.10.0
+25-Aug-2021 19:19:32.273 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+25-Aug-2021 19:19:32.274 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+25-Aug-2021 19:19:32.274 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+25-Aug-2021 19:19:32.274 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk1.8.0_191\jre
+25-Aug-2021 19:19:32.274 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_191-b12
+25-Aug-2021 19:19:32.274 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+25-Aug-2021 19:19:32.275 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 19:19:32.275 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 19:19:32.278 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\conf\logging.properties
+25-Aug-2021 19:19:32.278 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Aug-2021 19:19:32.278 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+25-Aug-2021 19:19:32.279 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Aug-2021 19:19:32.279 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+25-Aug-2021 19:19:32.280 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 19:19:32.281 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 19:19:32.283 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\temp
+25-Aug-2021 19:19:32.288 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.30]。
+25-Aug-2021 19:19:32.292 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [true]。
+25-Aug-2021 19:19:32.300 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1k  25 Mar 2021]
+25-Aug-2021 19:19:33.041 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+25-Aug-2021 19:19:33.098 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1192]毫秒内初始化
+25-Aug-2021 19:19:33.178 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+25-Aug-2021 19:19:33.179 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/10.0.10]
+25-Aug-2021 19:19:33.201 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\docs]
+25-Aug-2021 19:19:33.880 警告 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[173]毫秒。
+25-Aug-2021 19:19:33.919 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\docs]的部署已在[718]毫秒内完成
+25-Aug-2021 19:19:33.925 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\examples]
+25-Aug-2021 19:19:34.644 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\examples]的部署已在[720]毫秒内完成
+25-Aug-2021 19:19:34.648 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\host-manager]
+25-Aug-2021 19:19:34.702 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\host-manager]的部署已在[53]毫秒内完成
+25-Aug-2021 19:19:34.705 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\manager]
+25-Aug-2021 19:19:34.773 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\manager]的部署已在[68]毫秒内完成
+25-Aug-2021 19:19:34.779 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\ROOT]
+25-Aug-2021 19:19:34.814 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\ROOT]的部署已在[35]毫秒内完成
+25-Aug-2021 19:19:34.822 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+25-Aug-2021 19:19:34.856 信息 [main] org.apache.catalina.startup.Catalina.start [1756]毫秒后服务器启动
+25-Aug-2021 19:35:02.603 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/10.0.10
+25-Aug-2021 19:35:02.614 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jul 30 2021 09:51:27 UTC
+25-Aug-2021 19:35:02.615 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      10.0.10.0
+25-Aug-2021 19:35:02.615 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+25-Aug-2021 19:35:02.615 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+25-Aug-2021 19:35:02.615 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+25-Aug-2021 19:35:02.616 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk1.8.0_191\jre
+25-Aug-2021 19:35:02.617 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_191-b12
+25-Aug-2021 19:35:02.617 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+25-Aug-2021 19:35:02.617 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 19:35:02.618 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 19:35:02.619 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\conf\logging.properties
+25-Aug-2021 19:35:02.619 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Aug-2021 19:35:02.619 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+25-Aug-2021 19:35:02.619 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Aug-2021 19:35:02.621 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+25-Aug-2021 19:35:02.621 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 19:35:02.627 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 19:35:02.634 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\temp
+25-Aug-2021 19:35:02.642 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.30]。
+25-Aug-2021 19:35:02.644 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [true]。
+25-Aug-2021 19:35:02.665 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1k  25 Mar 2021]
+25-Aug-2021 19:35:03.702 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-80"]
+25-Aug-2021 19:35:03.762 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1766]毫秒内初始化
+25-Aug-2021 19:35:03.868 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+25-Aug-2021 19:35:03.868 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/10.0.10]
+25-Aug-2021 19:35:03.892 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\docs]
+25-Aug-2021 19:35:04.719 警告 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[193]毫秒。
+25-Aug-2021 19:35:04.771 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\docs]的部署已在[880]毫秒内完成
+25-Aug-2021 19:35:04.783 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\examples]
+25-Aug-2021 19:35:05.751 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\examples]的部署已在[968]毫秒内完成
+25-Aug-2021 19:35:05.757 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\host-manager]
+25-Aug-2021 19:35:05.878 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\host-manager]的部署已在[120]毫秒内完成
+25-Aug-2021 19:35:05.883 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\manager]
+25-Aug-2021 19:35:05.974 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\manager]的部署已在[91]毫秒内完成
+25-Aug-2021 19:35:05.978 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\ROOT]
+25-Aug-2021 19:35:06.034 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\ROOT]的部署已在[55]毫秒内完成
+25-Aug-2021 19:35:06.049 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-80"]
+25-Aug-2021 19:35:06.087 信息 [main] org.apache.catalina.startup.Catalina.start [2324]毫秒后服务器启动
+25-Aug-2021 19:38:05.907 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/10.0.10
+25-Aug-2021 19:38:05.913 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jul 30 2021 09:51:27 UTC
+25-Aug-2021 19:38:05.914 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      10.0.10.0
+25-Aug-2021 19:38:05.914 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+25-Aug-2021 19:38:05.914 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+25-Aug-2021 19:38:05.914 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+25-Aug-2021 19:38:05.914 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk1.8.0_191\jre
+25-Aug-2021 19:38:05.915 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_191-b12
+25-Aug-2021 19:38:05.915 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+25-Aug-2021 19:38:05.915 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 19:38:05.915 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 19:38:05.916 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\conf\logging.properties
+25-Aug-2021 19:38:05.917 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Aug-2021 19:38:05.917 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+25-Aug-2021 19:38:05.917 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Aug-2021 19:38:05.918 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+25-Aug-2021 19:38:05.919 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 19:38:05.922 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 19:38:05.922 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\temp
+25-Aug-2021 19:38:05.927 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.30]。
+25-Aug-2021 19:38:05.928 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [true]。
+25-Aug-2021 19:38:05.940 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1k  25 Mar 2021]
+25-Aug-2021 19:38:06.693 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-80"]
+25-Aug-2021 19:38:06.764 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1260]毫秒内初始化
+25-Aug-2021 19:38:06.842 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+25-Aug-2021 19:38:06.843 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/10.0.10]
+25-Aug-2021 19:38:06.870 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\docs]
+25-Aug-2021 19:38:07.511 警告 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[177]毫秒。
+25-Aug-2021 19:38:07.568 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\docs]的部署已在[697]毫秒内完成
+25-Aug-2021 19:38:07.571 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\examples]
+25-Aug-2021 19:38:08.418 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\examples]的部署已在[847]毫秒内完成
+25-Aug-2021 19:38:08.422 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\host-manager]
+25-Aug-2021 19:38:08.486 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\host-manager]的部署已在[64]毫秒内完成
+25-Aug-2021 19:38:08.491 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\manager]
+25-Aug-2021 19:38:08.559 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\manager]的部署已在[68]毫秒内完成
+25-Aug-2021 19:38:08.566 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\ROOT]
+25-Aug-2021 19:38:08.608 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\ROOT]的部署已在[43]毫秒内完成
+25-Aug-2021 19:38:08.616 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-80"]
+25-Aug-2021 19:38:08.642 信息 [main] org.apache.catalina.startup.Catalina.start [1876]毫秒后服务器启动
+25-Aug-2021 21:59:59.862 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/10.0.10
+25-Aug-2021 21:59:59.868 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jul 30 2021 09:51:27 UTC
+25-Aug-2021 21:59:59.869 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      10.0.10.0
+25-Aug-2021 21:59:59.870 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+25-Aug-2021 21:59:59.871 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+25-Aug-2021 21:59:59.871 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+25-Aug-2021 21:59:59.871 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk1.8.0_191\jre
+25-Aug-2021 21:59:59.871 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_191-b12
+25-Aug-2021 21:59:59.871 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+25-Aug-2021 21:59:59.871 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 21:59:59.872 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 21:59:59.872 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\conf\logging.properties
+25-Aug-2021 21:59:59.873 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Aug-2021 21:59:59.873 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+25-Aug-2021 21:59:59.874 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Aug-2021 21:59:59.874 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+25-Aug-2021 21:59:59.875 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 21:59:59.878 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 21:59:59.878 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\temp
+25-Aug-2021 21:59:59.882 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.30]。
+25-Aug-2021 21:59:59.887 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [true]。
+25-Aug-2021 21:59:59.896 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1k  25 Mar 2021]
+25-Aug-2021 22:00:00.578 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-80"]
+25-Aug-2021 22:00:00.622 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1089]毫秒内初始化
+25-Aug-2021 22:00:00.705 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+25-Aug-2021 22:00:00.705 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/10.0.10]
+25-Aug-2021 22:00:00.733 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\day03web_war]
+25-Aug-2021 22:00:01.416 警告 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[166]毫秒。
+25-Aug-2021 22:00:01.454 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\day03web_war]的部署已在[721]毫秒内完成
+25-Aug-2021 22:00:01.460 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\day03_war]
+25-Aug-2021 22:00:01.544 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\day03_war]的部署已在[84]毫秒内完成
+25-Aug-2021 22:00:01.549 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\docs]
+25-Aug-2021 22:00:01.618 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\docs]的部署已在[70]毫秒内完成
+25-Aug-2021 22:00:01.622 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\examples]
+25-Aug-2021 22:00:02.304 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\examples]的部署已在[683]毫秒内完成
+25-Aug-2021 22:00:02.310 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\host-manager]
+25-Aug-2021 22:00:02.378 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\host-manager]的部署已在[69]毫秒内完成
+25-Aug-2021 22:00:02.382 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\manager]
+25-Aug-2021 22:00:02.436 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\manager]的部署已在[55]毫秒内完成
+25-Aug-2021 22:00:02.444 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\ROOT]
+25-Aug-2021 22:00:02.492 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\ROOT]的部署已在[48]毫秒内完成
+25-Aug-2021 22:00:02.502 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-80"]
+25-Aug-2021 22:00:02.527 信息 [main] org.apache.catalina.startup.Catalina.start [1902]毫秒后服务器启动
+25-Aug-2021 22:03:54.270 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/10.0.10
+25-Aug-2021 22:03:54.275 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jul 30 2021 09:51:27 UTC
+25-Aug-2021 22:03:54.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      10.0.10.0
+25-Aug-2021 22:03:54.278 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+25-Aug-2021 22:03:54.279 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+25-Aug-2021 22:03:54.279 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+25-Aug-2021 22:03:54.280 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk1.8.0_191\jre
+25-Aug-2021 22:03:54.280 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_191-b12
+25-Aug-2021 22:03:54.280 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+25-Aug-2021 22:03:54.281 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 22:03:54.281 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 22:03:54.282 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\conf\logging.properties
+25-Aug-2021 22:03:54.283 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Aug-2021 22:03:54.283 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+25-Aug-2021 22:03:54.283 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Aug-2021 22:03:54.284 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+25-Aug-2021 22:03:54.284 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 22:03:54.289 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 22:03:54.289 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\temp
+25-Aug-2021 22:03:54.296 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.30]。
+25-Aug-2021 22:03:54.297 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [true]。
+25-Aug-2021 22:03:54.305 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1k  25 Mar 2021]
+25-Aug-2021 22:03:54.932 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-80"]
+25-Aug-2021 22:03:54.978 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1033]毫秒内初始化
+25-Aug-2021 22:03:55.047 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+25-Aug-2021 22:03:55.051 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/10.0.10]
+25-Aug-2021 22:03:55.072 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\day03web_war]
+25-Aug-2021 22:03:55.738 警告 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[161]毫秒。
+25-Aug-2021 22:03:55.771 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\day03web_war]的部署已在[699]毫秒内完成
+25-Aug-2021 22:03:55.773 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\day03_war]
+25-Aug-2021 22:03:55.844 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\day03_war]的部署已在[71]毫秒内完成
+25-Aug-2021 22:03:55.847 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\docs]
+25-Aug-2021 22:03:55.897 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\docs]的部署已在[50]毫秒内完成
+25-Aug-2021 22:03:55.899 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\examples]
+25-Aug-2021 22:03:56.482 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\examples]的部署已在[583]毫秒内完成
+25-Aug-2021 22:03:56.484 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\host-manager]
+25-Aug-2021 22:03:56.528 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\host-manager]的部署已在[44]毫秒内完成
+25-Aug-2021 22:03:56.530 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\manager]
+25-Aug-2021 22:03:56.585 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\manager]的部署已在[55]毫秒内完成
+25-Aug-2021 22:03:56.587 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\ROOT]
+25-Aug-2021 22:03:56.622 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\ROOT]的部署已在[35]毫秒内完成
+25-Aug-2021 22:03:56.631 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-80"]
+25-Aug-2021 22:03:56.659 信息 [main] org.apache.catalina.startup.Catalina.start [1678]毫秒后服务器启动
+25-Aug-2021 22:05:08.884 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/10.0.10
+25-Aug-2021 22:05:08.889 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jul 30 2021 09:51:27 UTC
+25-Aug-2021 22:05:08.890 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      10.0.10.0
+25-Aug-2021 22:05:08.890 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+25-Aug-2021 22:05:08.891 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+25-Aug-2021 22:05:08.891 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+25-Aug-2021 22:05:08.892 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk1.8.0_191\jre
+25-Aug-2021 22:05:08.892 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_191-b12
+25-Aug-2021 22:05:08.892 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+25-Aug-2021 22:05:08.893 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 22:05:08.893 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 22:05:08.894 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\conf\logging.properties
+25-Aug-2021 22:05:08.895 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Aug-2021 22:05:08.896 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+25-Aug-2021 22:05:08.896 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Aug-2021 22:05:08.896 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+25-Aug-2021 22:05:08.897 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 22:05:08.901 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 22:05:08.902 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\temp
+25-Aug-2021 22:05:08.908 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.30]。
+25-Aug-2021 22:05:08.909 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [true]。
+25-Aug-2021 22:05:08.919 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1k  25 Mar 2021]
+25-Aug-2021 22:05:09.538 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-80"]
+25-Aug-2021 22:05:09.586 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1033]毫秒内初始化
+25-Aug-2021 22:05:09.655 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+25-Aug-2021 22:05:09.657 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/10.0.10]
+25-Aug-2021 22:05:09.680 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\day03web_war]
+25-Aug-2021 22:05:10.368 警告 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[167]毫秒。
+25-Aug-2021 22:05:10.397 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\day03web_war]的部署已在[717]毫秒内完成
+25-Aug-2021 22:05:10.401 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\day03_war]
+25-Aug-2021 22:05:10.481 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\day03_war]的部署已在[80]毫秒内完成
+25-Aug-2021 22:05:10.482 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\docs]
+25-Aug-2021 22:05:10.533 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\docs]的部署已在[51]毫秒内完成
+25-Aug-2021 22:05:10.535 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\examples]
+25-Aug-2021 22:05:11.159 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\examples]的部署已在[624]毫秒内完成
+25-Aug-2021 22:05:11.162 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\host-manager]
+25-Aug-2021 22:05:11.234 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\host-manager]的部署已在[71]毫秒内完成
+25-Aug-2021 22:05:11.236 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\manager]
+25-Aug-2021 22:05:11.296 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\manager]的部署已在[60]毫秒内完成
+25-Aug-2021 22:05:11.299 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\ROOT]
+25-Aug-2021 22:05:11.345 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\ROOT]的部署已在[45]毫秒内完成
+25-Aug-2021 22:05:11.356 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-80"]
+25-Aug-2021 22:05:11.392 信息 [main] org.apache.catalina.startup.Catalina.start [1804]毫秒后服务器启动
+25-Aug-2021 22:06:22.963 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/10.0.10
+25-Aug-2021 22:06:22.968 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jul 30 2021 09:51:27 UTC
+25-Aug-2021 22:06:22.968 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      10.0.10.0
+25-Aug-2021 22:06:22.969 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+25-Aug-2021 22:06:22.969 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+25-Aug-2021 22:06:22.969 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+25-Aug-2021 22:06:22.969 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk1.8.0_191\jre
+25-Aug-2021 22:06:22.970 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_191-b12
+25-Aug-2021 22:06:22.970 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+25-Aug-2021 22:06:22.970 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 22:06:22.970 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 22:06:22.972 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\conf\logging.properties
+25-Aug-2021 22:06:22.972 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Aug-2021 22:06:22.972 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+25-Aug-2021 22:06:22.972 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Aug-2021 22:06:22.973 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+25-Aug-2021 22:06:22.974 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 22:06:22.977 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 22:06:22.978 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\temp
+25-Aug-2021 22:06:22.984 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.30]。
+25-Aug-2021 22:06:22.986 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [true]。
+25-Aug-2021 22:06:22.994 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1k  25 Mar 2021]
+25-Aug-2021 22:06:23.655 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-80"]
+25-Aug-2021 22:06:23.704 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1080]毫秒内初始化
+25-Aug-2021 22:06:23.780 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+25-Aug-2021 22:06:23.781 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/10.0.10]
+25-Aug-2021 22:06:23.807 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\day03web_war]
+25-Aug-2021 22:06:24.540 警告 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[179]毫秒。
+25-Aug-2021 22:06:24.570 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\day03web_war]的部署已在[763]毫秒内完成
+25-Aug-2021 22:06:24.572 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\day03_war]
+25-Aug-2021 22:06:24.651 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\day03_war]的部署已在[78]毫秒内完成
+25-Aug-2021 22:06:24.656 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\docs]
+25-Aug-2021 22:06:24.711 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\docs]的部署已在[55]毫秒内完成
+25-Aug-2021 22:06:24.716 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\examples]
+25-Aug-2021 22:06:25.321 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\examples]的部署已在[606]毫秒内完成
+25-Aug-2021 22:06:25.327 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\host-manager]
+25-Aug-2021 22:06:25.389 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\host-manager]的部署已在[62]毫秒内完成
+25-Aug-2021 22:06:25.393 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\manager]
+25-Aug-2021 22:06:25.458 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\manager]的部署已在[65]毫秒内完成
+25-Aug-2021 22:06:25.464 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\ROOT]
+25-Aug-2021 22:06:25.511 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\ROOT]的部署已在[48]毫秒内完成
+25-Aug-2021 22:06:25.524 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-80"]
+25-Aug-2021 22:06:25.585 信息 [main] org.apache.catalina.startup.Catalina.start [1879]毫秒后服务器启动
+25-Aug-2021 22:06:31.734 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/10.0.10
+25-Aug-2021 22:06:31.740 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jul 30 2021 09:51:27 UTC
+25-Aug-2021 22:06:31.740 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      10.0.10.0
+25-Aug-2021 22:06:31.740 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+25-Aug-2021 22:06:31.741 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+25-Aug-2021 22:06:31.741 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+25-Aug-2021 22:06:31.741 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk1.8.0_191\jre
+25-Aug-2021 22:06:31.741 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_191-b12
+25-Aug-2021 22:06:31.742 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+25-Aug-2021 22:06:31.742 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 22:06:31.742 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 22:06:31.744 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\conf\logging.properties
+25-Aug-2021 22:06:31.744 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Aug-2021 22:06:31.744 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+25-Aug-2021 22:06:31.745 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Aug-2021 22:06:31.746 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+25-Aug-2021 22:06:31.746 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 22:06:31.747 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 22:06:31.748 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\temp
+25-Aug-2021 22:06:31.755 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.30]。
+25-Aug-2021 22:06:31.758 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [true]。
+25-Aug-2021 22:06:31.769 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1k  25 Mar 2021]
+25-Aug-2021 22:06:32.469 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-80"]
+25-Aug-2021 22:06:32.511 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1115]毫秒内初始化
+25-Aug-2021 22:06:32.581 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+25-Aug-2021 22:06:32.582 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/10.0.10]
+25-Aug-2021 22:06:32.607 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\day03web_war]
+25-Aug-2021 22:06:33.363 警告 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[214]毫秒。
+25-Aug-2021 22:06:33.398 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\day03web_war]的部署已在[791]毫秒内完成
+25-Aug-2021 22:06:33.402 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\day03_war]
+25-Aug-2021 22:06:33.484 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\day03_war]的部署已在[83]毫秒内完成
+25-Aug-2021 22:06:33.488 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\docs]
+25-Aug-2021 22:06:33.538 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\docs]的部署已在[50]毫秒内完成
+25-Aug-2021 22:06:33.543 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\examples]
+25-Aug-2021 22:06:34.197 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\examples]的部署已在[653]毫秒内完成
+25-Aug-2021 22:06:34.202 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\host-manager]
+25-Aug-2021 22:06:34.257 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\host-manager]的部署已在[55]毫秒内完成
+25-Aug-2021 22:06:34.264 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\manager]
+25-Aug-2021 22:06:34.328 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\manager]的部署已在[65]毫秒内完成
+25-Aug-2021 22:06:34.354 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\ROOT]
+25-Aug-2021 22:06:34.406 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\ROOT]的部署已在[61]毫秒内完成
+25-Aug-2021 22:06:34.421 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-80"]
+25-Aug-2021 22:06:34.456 信息 [main] org.apache.catalina.startup.Catalina.start [1943]毫秒后服务器启动
+25-Aug-2021 22:07:38.949 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/10.0.10
+25-Aug-2021 22:07:38.954 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jul 30 2021 09:51:27 UTC
+25-Aug-2021 22:07:38.954 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      10.0.10.0
+25-Aug-2021 22:07:38.955 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+25-Aug-2021 22:07:38.955 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+25-Aug-2021 22:07:38.956 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+25-Aug-2021 22:07:38.956 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk1.8.0_191\jre
+25-Aug-2021 22:07:38.956 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_191-b12
+25-Aug-2021 22:07:38.956 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+25-Aug-2021 22:07:38.957 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 22:07:38.957 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 22:07:38.958 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\conf\logging.properties
+25-Aug-2021 22:07:38.958 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Aug-2021 22:07:38.958 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+25-Aug-2021 22:07:38.958 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Aug-2021 22:07:38.959 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+25-Aug-2021 22:07:38.960 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 22:07:38.962 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10
+25-Aug-2021 22:07:38.963 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\temp
+25-Aug-2021 22:07:38.968 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.30]。
+25-Aug-2021 22:07:38.970 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [true]。
+25-Aug-2021 22:07:38.977 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1k  25 Mar 2021]
+25-Aug-2021 22:07:39.602 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-80"]
+25-Aug-2021 22:07:39.654 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1039]毫秒内初始化
+25-Aug-2021 22:07:39.717 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+25-Aug-2021 22:07:39.718 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/10.0.10]
+25-Aug-2021 22:07:39.740 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\day03web_war]
+25-Aug-2021 22:07:40.411 警告 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[178]毫秒。
+25-Aug-2021 22:07:40.449 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\day03web_war]的部署已在[709]毫秒内完成
+25-Aug-2021 22:07:40.453 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\day03_war]
+25-Aug-2021 22:07:40.529 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\day03_war]的部署已在[76]毫秒内完成
+25-Aug-2021 22:07:40.534 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\docs]
+25-Aug-2021 22:07:40.595 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\docs]的部署已在[61]毫秒内完成
+25-Aug-2021 22:07:40.599 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\examples]
+25-Aug-2021 22:07:41.227 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\examples]的部署已在[628]毫秒内完成
+25-Aug-2021 22:07:41.233 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\host-manager]
+25-Aug-2021 22:07:41.296 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\host-manager]的部署已在[63]毫秒内完成
+25-Aug-2021 22:07:41.300 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\manager]
+25-Aug-2021 22:07:41.350 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\manager]的部署已在[51]毫秒内完成
+25-Aug-2021 22:07:41.356 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\ROOT]
+25-Aug-2021 22:07:41.401 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\a\IdeaProjects\a1\apache-tomcat-10.0.10\webapps\ROOT]的部署已在[44]毫秒内完成
+25-Aug-2021 22:07:41.413 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-80"]
+25-Aug-2021 22:07:41.454 信息 [main] org.apache.catalina.startup.Catalina.start [1799]毫秒后服务器启动

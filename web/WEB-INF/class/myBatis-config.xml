@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+                        <!--1这里是后加的说是把链接数据库的参数写在外边-->
+                        <properties resource="db.properties"/>
+                        <!--2配置别名,下边就是把com.day03.ssmkuangjia.model.Ticket改为t110-->
+                        <!--之后在Mapper的配置文件里返回值就可以写t110-->
+                        <typeAliases>
+                            <typeAlias alias="t110" type="com.day03.ssmkuangjia.model.Ticket"/>
+                        </typeAliases>
+    <!--这是mybatis的配置文件-->
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <!--链接数据库文件-->
+            <dataSource type="POOLED">
+                        <!--<property name="driver" value="com.mysql.jdbc.Driver"/>-->
+                        <!--1这里是后加的说是把链接数据库的参数写在外边-->
+                        <property name="driver" value="${mysql.driverClass}"/>
+                <property name="url" value="${mysql.jdbcURL}"/>
+                <property name="username" value="${mysql.user}"/>
+                <property name="password" value="${mysql.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <!--关联sql语句的文件，在这个文件夹下有个mapper里都是-->
+    <mapper resource="mapper/ticketMapper.xml"/>
+    </mappers>
+</configuration>
